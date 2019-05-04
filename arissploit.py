@@ -40,6 +40,7 @@
 import os
 import time
 import sys
+import random
 import os as sistema
 # Set color
 R = '\033[31m' # Red
@@ -48,8 +49,25 @@ G = '\033[32m' # Green
 O = '\033[0;33m' # Orange
 B = '\033[1;34m' #Blue
 E = '\033[0m' # End
-os.system("cd ;cd arissploit")
-os.system("cd ;cd arissploit ;cd banner;cat banner4.py")
+
+def show_graphic():
+    menu = random.randrange(2, 15)
+    if menu == 2:
+    os.system("python2 banner/banner.py")
+    if menu == 3:
+    os.system("python2 banner/banner1.py")
+    if menu == 4:
+    os.system("python2 banner/banner2.py")
+    if menu == 5:
+    os.system("python2 banner/banner3.py")
+    if menu == 6:
+    os.system("cat banner/banner4.py")
+    if menu == 7:
+    os.system("python2 banner/banner5.py")
+    if menu == 8:
+    os.system("python2 banner/banner6.py")
+    
+show_graphic()
 print
 print ""+N+"       =[ "+O+"Arissploit v.1 by Entynetproject             "+N+"]"
 print "+ -- --=[ 14 Exploits - 10 Scanners 16 post - 38 virus ]"

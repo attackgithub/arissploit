@@ -1,3 +1,9 @@
+import os
+import time
+import sys
+import random
+import os as sistema
+
 menu = random.randrange(2, 15)
     if menu == 2:
     os.system("python2 banner/banner.py")

@@ -1,3 +1,4 @@
+class bcolors:
 RED = '\033[91m'
         BOLD = '\033[1m'
         UNDERL = '\033[4m'

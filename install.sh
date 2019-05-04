@@ -55,8 +55,7 @@ fi
 
 printf '\033]2;Arissploit INSTALLER\a'
 clear
-cat banner/banner4.py
-echo -e
+python2 banner/banner.py
 echo -e "\033[1;33mBy Entynetproject\033[0m"
 sleep 3
 echo -e "More on our site:"

@@ -70,6 +70,8 @@ def show_graphic():
     os.system("cat banner/banner7.py")
     if menu == 10:
     os.system("python2 banner/banner8.py")
+    if menu == 11:
+    os.system("cat banner/banner9.py")
     
 show_graphic()
 print

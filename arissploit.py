@@ -51,25 +51,7 @@ B = '\033[1;34m' #Blue
 E = '\033[0m' # End
 
 def show_graphic():
-menu = random.randrange(2, 15) 
-if menu == 2:
-    os.system("python2 banner/banner.py")
-
-if menu == 3:
-    os.system("python2 banner/banner1.py")
-
-if menu == 4:
-    os.system("python2 banner/banner2.py")
-
-if menu == 5:
-    os.system("python2 banner/banner3.py")
-
-if menu == 6:
     os.system("cat banner/banner4.py")
-
-if menu == 7:
-    os.system("python2 banner/banner5.py")
-
 show_graphic()
 print
 print ""+N+"       =[ "+O+"Arissploit v.1 by Entynetproject             "+N+"]"

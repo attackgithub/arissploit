@@ -72,8 +72,13 @@ echo -e "Press \033[1;33many key\033[0m to install arissploit"
 read -n 1
 
 clear
+{
 cp bin/arissploit /bin
 chmod +x /bin/arissploit
+cp bin/arissploit /usr/local/bin
+chmod +x /usr/local/bin/arissploit
+} &> /dev/null
+
 sleep 1
 echo -e "Install arissploit on amd or arm("$YS"amd"$CE"/"$YS"arm"$CE")?"
 echo -e "Our programm supports two popular architectures "$YS"amd"$CE" and "$YS"arm"$CE"!"

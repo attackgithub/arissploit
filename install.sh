@@ -103,6 +103,8 @@ chmod +x installtermux.sh
 pip install -r requirements.txt
 fi
 
+clear
+
 printf '\033]2;Arissploit INSTALLER\a'
 sleep 3
 echo -e "Open a NEW terminal and type '"$YS"arissploit"$CE"' to launch framework"

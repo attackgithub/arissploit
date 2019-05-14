@@ -98,7 +98,7 @@ def main():
 		print
 		print ""+N+"cloning newly updated..."
 		time.sleep(5)
-		os.system("rm -r ~/arissploit;git clone https://github.com/entynetproject/arissploit.git;cd arissploit;arissploit")
+		os.system("cd ~ ; rm -r ~/arissploit ; git clone https://github.com/entynetproject/arissploit.git ; cd arissploit ; arissploit")
 		main()
 	elif dr == "show exploits":
 		print ""+N+""
@@ -292,7 +292,7 @@ def main():
 		time.sleep(1)
 		if r == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
-			os.system("cd  modules;cd exploit_joomla;python2 exploitjoomla.py -t %s -f %s" % (t,f))
+			os.system("cd modules;cd exploit_joomla;python exploitjoomla.py -t %s -f %s" % (t,f))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()
@@ -307,7 +307,7 @@ def main():
 		time.sleep(2)
 		if ru == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
-			os.system("cd modules;cd prestashop;python2 wp-symposium.py -t %s -f %s" % (vc,fl))
+			os.system("cd modules;cd prestashop;python wp-symposium.py -t %s -f %s" % (vc,fl))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()
@@ -338,7 +338,7 @@ def main():
 		if kt == "run":
 			time.sleep(1)
 			print ""+B+"["+R+"*"+B+"]"+N+" Starting attacks..."
-			os.system("cd modules;cd com_foxcontact;python2 exploit.py --url %s --cid %s" % (ts,cid))
+			os.system("cd modules;cd com_foxcontact;python exploit.py --url %s --cid %s" % (ts,cid))
 			print ""+B+"[*]"+N+" Job finished..."
 			print
 			main()
@@ -354,7 +354,7 @@ def main():
 			print
 			main()
 	elif dr == "use exploit/joomla_simple_shell":
-		os.system("cd modules;cd joomla_ex;python2 joomla.py")
+		os.system("cd modules;cd joomla_ex;python joomla.py")
 		print ""+B+"[*]"+N+" Job finished"
 		print
 		main()
@@ -894,7 +894,7 @@ def main():
 		gay = raw_input(""+N+"(console)> ("+R+"cms_war"+N+"): ")
 		if gay == "run":
 			print ""+B+"[*]"+N+" Starting attacks..."
-			os.system("cd modules;cd scanner;python2 scanner.py %s -m %s" % (tops,ray))
+			os.system("cd modules;cd scanner;python scanner.py %s -m %s" % (tops,ray))
 			print ""+B+"[*]"+N+" Job finished..."
 			print
 			main()
@@ -948,7 +948,7 @@ def main():
 		rup = raw_input(""+N+"(console)> ("+R+"jomscan_v4"+N+"): ")
 		if rup == "run":
 			print ""+B+"[*]"+N+" Starting Attacks..."
-			os.system("cd modules;cd joomscan_v4;python2 scan.py %s" % (ops))
+			os.system("cd modules;cd joomscan_v4;python scan.py %s" % (ops))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()
@@ -959,7 +959,7 @@ def main():
 		if i == "run":
 			time.sleep(2)
 			print ""+B+"[*]"+N+" Starting attacks..."
-			os.system("cd modules;cd joomscan_v3;python2 joomlascanner.py %s" % (x))
+			os.system("cd modules;cd joomscan_v3;python joomlascanner.py %s" % (x))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()
@@ -968,7 +968,7 @@ def main():
 		print "target => "+R+"",p
 		o = raw_input(""+N+"(console)> ("+R+"joomla_scanners_v.2"+N+"): ")
 		if o == "run":
-			os.system("cd modules;cd joomscan_v2;python2 joomlascan2.py %s" % (p))
+			os.system("cd modules;cd joomscan_v2;python joomlascan2.py %s" % (p))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()

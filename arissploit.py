@@ -232,7 +232,7 @@ def main():
 			
 	elif dr == "use exploit/android/remote_access":
 		print ""+N+"=>"+R+" Now you can enter key 'show options'"
-		os.system("cd modules;cd android;python2 android.py")
+		os.system("cd modules;cd android;python android.py")
 		print ""+B+"[*] "+N+"Job finished..."
 		print
 		main()
@@ -241,7 +241,7 @@ def main():
 		print "target =>"+R+"",target
 		run = raw_input(""+N+"(console)> ("+R+"power_dos"+N+"): ")
 		if run == "run":
-			os.system("cd modules;cd hulk_attacks;python2 hulk.py %s" % (target))
+			os.system("cd modules;cd hulk_attacks;python hulk.py %s" % (target))
 			print ""+B+"[*]"+N+" Job finished"
 			print
 			main()

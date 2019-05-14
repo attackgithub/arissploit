@@ -39,6 +39,8 @@
 
 #GNU
 echo "installing..."
+apt-get install python
+echo "done..."
 apt-get install git
 echo "done..."
 apt-get update

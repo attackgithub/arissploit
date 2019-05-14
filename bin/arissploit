@@ -49,7 +49,7 @@ if [[ -f ~/arissploit/arissploit.py ]]
 then
 sleep 1
 cd ~/arissploit 
-python2 arissploit.py
+python arissploit.py
 else
 sleep 2
 echo -e ""$B"[*] "$N"arissploit: "$R"error:"$CE" no arissploit.py found in: "

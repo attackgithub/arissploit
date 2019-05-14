@@ -50,7 +50,6 @@ else
 git clone https://github.com/entynetproject/arissploit.git
 cd arissploit 
 chmod +x install.sh
-./install.sh
 fi
 
 printf '\033]2;Arissploit INSTALLER\a'

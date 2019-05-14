@@ -47,6 +47,8 @@ pkg install git
 echo "done..."
 pkg install wget
 echo "done..."
+pkg install python
+echo "done..."
 pkg install python2
 echo "done..."
 pkg install perl

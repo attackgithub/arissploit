@@ -882,7 +882,7 @@ def main():
 			#############
 			
 	elif dr == "use scanner/usr_pro_wordpress_auto_find":
-		os.system("cd modules;cd usr_pro_wordpress_auto_find;python2 userpro.py")
+		os.system("cd modules;cd usr_pro_wordpress_auto_find;python userpro.py")
 		print ""+B+"[*]"+N+" Job finished"
 		print
 		main()
@@ -939,7 +939,7 @@ def main():
 		if m == "run":
 			time.sleep(2)
 			print ""+B+"[*] "+N+"Starting attacks..."
-			os.system("cd modules;cd joomla_sqli_scanners;python2 joomsql.py %s" % (q))
+			os.system("cd modules;cd joomla_sqli_scanners;python joomsql.py %s" % (q))
 			print
 			main()
 	elif dr == "use scanner/jomscan_v4":

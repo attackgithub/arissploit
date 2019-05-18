@@ -54,7 +54,7 @@ def show_graphic():
     os.system("cat banner/banner4.py")
 show_graphic()
 print
-print ""+N+"       =[ "+O+"Arissploit v.1.0 by Entynetproject           "+N+"]"
+print ""+N+"       =[ "+O+"Arissploit v1.0 by Entynetproject            "+N+"]"
 print "+ -- --=[ 14 Exploits - 10 Scanners 16 post - 38 virus ]"
 print "+ -- --=[ Design by DJ Mobley (ascii designer)         "+N+"]"
 print "+ -- --=[ Report Bug On Twitter "+R+"@arissploit            "+N+"]"

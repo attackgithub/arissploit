@@ -14,15 +14,14 @@
   <a href="https://ru.m.wikipedia.org/wiki/python">
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
+  <a href="https://github.com/entynetproject/arissploit">
+    <img src="https://img.shields.io/badge/arch-arm/amd-red.svg">
+ </a>
   <a href="https://github.com/entynetproject/arissploit/issues?q=is%3Aissue+is%3Aclosed">
       <img src="https://img.shields.io/github/issues/entynetproject/arissploit.svg">
   </a>
   <a href="https://github.com/entynetproject/arissploit/wiki">
       <img src="https://img.shields.io/badge/wiki%20-arissploit-lightgrey.svg">
- </a>
-
-  <a href="https://github.com/entynetproject/arissploit">
-    <img src="https://img.shields.io/badge/arch-arm/amd-red.svg">
  </a>
   <a href="https://mobile.twitter.com/arissploit">
     <img src="https://img.shields.io/badge/twitter-arissploit-blue.svg">

@@ -31,7 +31,7 @@
 
 # About our framework
 
-Arissploit - database of exploits, viruses and tools for penetration testing developed by Entynetproject and designed by DJ Mobley.
+Arissploit Framework is database of exploits, viruses and tools for penetration testing developed by Entynetproject and designed by DJ Mobley.
 
 ![442D7277-4FC6-49FA-B362-D38947E185D0](https://user-images.githubusercontent.com/43011806/57137922-f2b77f00-6db9-11e9-8fff-f575594f0287.jpeg)
 

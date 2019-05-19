@@ -115,7 +115,7 @@ Arissploit Framework based on this languages:
 # Arissploit BSD license
 
 
- HUE is an unix filesystem 256-bit AES encryptor.
+      Arissploit Framework - database of exploits, viruses, etc.
       Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
 
 

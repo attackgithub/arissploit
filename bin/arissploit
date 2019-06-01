@@ -49,6 +49,8 @@ if [[ -f ~/arissploit/arissploit.py ]]
 then
 sleep 1
 cd ~/arissploit 
+trap '' INT TSTP
+trap '' 2
 python arissploit.py
 else
 sleep 2

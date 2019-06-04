@@ -47,7 +47,9 @@ then
 clear
 cd arissploit
 else
+{
 git clone https://github.com/entynetproject/arissploit.git
+} &> /dev/null
 cd arissploit 
 chmod +x install.sh
 cd arissploit

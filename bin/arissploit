@@ -53,17 +53,6 @@ trap '' INT TSTP
 trap '' 2
 python arissploit.py
 else
-sleep 2
-echo -e ""$B"[*] "$N"arissploit: "$R"error:"$CE" no arissploit.py found in: "
-echo -e
-echo -e "             "$N""$SA"/arissploit/arissploit.py"$CE""
-echo -e ""$N"                                  ^"$CE""
-sleep 0.5
-echo -e ""$B"[*] "$N"arissploit: "$R"write: "$CE"trying to rewrite: "
-echo -e
-echo -e "             "$N""$SA"/arissploit"
-echo -e "              "$N"         ^"$CE""
-sleep 0.5
 cd ~
 if [[ -d ~/arissploit ]]
 then

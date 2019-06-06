@@ -69,11 +69,17 @@ if [[ -d ~/arissploit ]]
 then
 rm -r ~/arissploit
 cd ~
+{
 git clone https://github.com/entynetproject/arissploit.git
+} &> /dev/null
 cd arissploit
 arissploit
 else
+cd ~
+{
 git clone https://github.com/entynetproject/arissploit.git
+} &> /dev/null
+cd arissploit
 arissploit
 fi
 fi

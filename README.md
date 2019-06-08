@@ -112,6 +112,12 @@ Arissploit Framework based on this languages:
     archive or website. Also network scanners can scan open ports or
     your local network and IPs!
 
+# Terms of use
+
+    This tool is only for educational purposes only.
+    Use this tool only on your own network and never without permission.
+    I am not responsible for anything you do with this tool.
+
 # Arissploit BSD license
 
 

@@ -36,6 +36,19 @@
  # TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+WHO="$( whoami )"
+
+if [[ "$WHO" != "root" ]]
+then
+sleep 1
+echo -e "$RS"run it as"$CE" "$YS"root"$CE"
+sleep 1
+echo -e "$RS"or use"$CE" "$YS"sudo"$CE"
+sleep 1
+exit
+fi
+
 {
 rm /bin/arissploit
 rm /usr/local/bin/arissploit

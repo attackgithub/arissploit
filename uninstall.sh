@@ -37,6 +37,10 @@
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+CE="\033[0m"
+RS="\033[1;31m"
+YS="\033[1;33m"
+
 WHO="$( whoami )"
 
 if [[ "$WHO" != "root" ]]

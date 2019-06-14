@@ -101,6 +101,7 @@ read -p $'(\033[4;93march\033[0m)> ' CONF
 
 if [[ "$CONF" = "amd" ]]
 then
+sleep 1
 clear
 cd Install
 chmod +x installgnuroot.sh
@@ -110,6 +111,7 @@ fi
 
 if [[ "$CONF" = "arm" ]]
 then
+sleep 1
 clear
 cd Install
 chmod +x installtermux.sh

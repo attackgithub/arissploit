@@ -38,7 +38,11 @@
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #GNU
-echo "installing..."
+N="\033[1;37m"
+C="\033[0m"
+sleep 1
+echo -e ""$N"Installing dependences..."$C""
+sleep 1
 apt-get install python
 echo "done..."
 apt-get install git
@@ -68,4 +72,3 @@ echo "done..."
 apt-get install php
 echo "done..."
 sleep 0.5
-echo "Ok"

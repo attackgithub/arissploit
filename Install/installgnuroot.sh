@@ -42,7 +42,6 @@ N="\033[1;37m"
 C="\033[0m"
 sleep 1
 echo -e ""$N"Installing dependences..."$C""
-sleep 1
 apt-get install python
 echo "done..."
 apt-get install git

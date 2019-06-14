@@ -100,7 +100,7 @@ def main():
 		time.sleep(5)
 		os.system("cd ~ ; rm -r ~/arissploit ; git clone https://github.com/entynetproject/arissploit.git ; cd arissploit ")
 		time.sleep(3)
-                print ""+B+"~ "+N+"Updated..."
+                print ""+B+"~ "+N+"Updated!"
                 time.sleep(1)
                 print
                 main()

@@ -38,7 +38,11 @@
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #Termux
-echo "installing..."
+N="\033[1;37m"
+C="\033[0m"
+sleep 1
+echo -e ""$N"Installing dependences..."$C""
+sleep 1
 pkg update
 echo "done..."
 pkg upgrade
@@ -56,4 +60,3 @@ echo "done..."
 pkg install php
 echo "done..."
 sleep 0.5
-echo "Ok"

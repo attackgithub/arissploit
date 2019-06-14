@@ -98,8 +98,9 @@ def main():
 		print
 		print ""+N+"cloning newly updated..."
 		time.sleep(5)
-		os.system("cd ~ ; rm -r ~/arissploit ; git clone https://github.com/entynetproject/arissploit.git ; cd arissploit ; arissploit")
-		main()
+		os.system("cd ~ ; rm -r ~/arissploit ; git clone https://github.com/entynetproject/arissploit.git ; cd arissploit ")
+		print
+                main()
 	elif dr == "show exploits":
 		print ""+N+""
 		print " EXPLOITS"

@@ -1,9 +1,0 @@
-requests
-urllib3
-BeautifulSoup
-bs4
-mechanize
-google
-colorama
-urllib3
-wget

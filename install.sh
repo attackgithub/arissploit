@@ -103,7 +103,7 @@ if [[ "$CONF" = "amd" ]]
 then
 sleep 1
 clear
-cd Install
+cd install
 chmod +x installgnuroot.sh
 ./installgnuroot.sh
 pip install -r requirements.txt
@@ -113,7 +113,7 @@ if [[ "$CONF" = "arm" ]]
 then
 sleep 1
 clear
-cd Install
+cd install
 chmod +x installtermux.sh
 ./installtermux.sh
 pip install -r requirements.txt
